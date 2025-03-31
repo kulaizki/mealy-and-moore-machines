@@ -12,6 +12,9 @@ def main():
         ["Introduction", "Moore Machine", "Mealy Machine", "Practice Mode"]
     )
 
+    st.sidebar.markdown("---")  
+    st.sidebar.markdown("### Dev's Github: [kulaizki](https://github.com/kulaizki)")
+
     if app_mode == "Introduction":
         show_introduction()
     elif app_mode == "Moore Machine":
